@@ -1,2 +1,7 @@
 .env
 __py_cache__/
+venv/
+.DS_Store
+.idea/
+*.pyc
+doc/
