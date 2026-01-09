@@ -1,5 +1,9 @@
 services:
   bot:
+    environment:
+      PYTHONUNBUFFERED: 1
+    command: python -u bot/bot.py
+
     build: .
     container_name: discord-modrinth-bot
     env_file:

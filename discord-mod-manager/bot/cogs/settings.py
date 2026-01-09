@@ -1,5 +1,5 @@
 from discord.ext import commands
-from bot.db import get_guild_settings, set_guild_settings
+from db import get_guild_settings, set_guild_settings
 
 class Settings(commands.Cog):
     def __init__(self, bot):

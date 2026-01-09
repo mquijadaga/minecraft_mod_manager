@@ -1,7 +1,7 @@
 from discord.ext import commands
 import requests
 import json
-from bot.db import get_guild_settings
+from db import get_guild_settings
 
 BASE_API_URL = "https://api.modrinth.com/v2"
 
